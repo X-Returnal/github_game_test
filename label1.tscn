@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://ssu8lxyk25dm"]
+
+[ext_resource type="PackedScene" uid="uid://cbh8unv5w7p1b" path="res://label.tscn" id="1_m2131"]
+
+[sub_resource type="SystemFont" id="SystemFont_sm0ok"]
+font_weight = 375
+
+[sub_resource type="LabelSettings" id="LabelSettings_lcs4o"]
+font = SubResource("SystemFont_sm0ok")
+font_size = 196
+font_color = Color(0.870588, 1, 1, 1)
+outline_size = 2
+outline_color = Color(0.176471, 0.176471, 0.243137, 1)
+
+[node name="Label" type="Label"]
+offset_right = 660.0
+offset_bottom = 315.0
+text = "very cool
+"
+label_settings = SubResource("LabelSettings_lcs4o")
+
+[node name="Label" parent="." instance=ExtResource("1_m2131")]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 229.0
+offset_right = 1099.0
+offset_bottom = 544.0
